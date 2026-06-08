@@ -32,7 +32,7 @@ A student-generated reviews, study strategies, and course-completion assistant f
 | 10 | YouTube | How to Succeed at WGU | https://www.youtube.com/watch?v=QPfMchoITKU |
 | 11 | Reddit | A Comprehensive Guide to WGU | https://www.reddit.com/r/WGU/comments/1goyuwa/a_comprehensive_guide_to_wgu_my_full_honest/ 
 | 12 | Reddit | Need all the advice and resources | https://www.reddit.com/r/WGU/comments/1pb39gx/need_all_the_advice_and_resources/ |
-| 13 | YouTube | WGU Cybersecurity Degree Review | https://www.youtube.com/watch?v=le91dq4CCnU |
+
 
 
 ---
@@ -45,11 +45,12 @@ A student-generated reviews, study strategies, and course-completion assistant f
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
 **Chunk size:**
-700
+Paragraph-aware chunking
+Target size: 700 - 900 characters
 **Overlap:**
-100
+100 - 150 characters
 **Reasoning:**
-This chunking strategy was chosen due to the length of the documuments and unstructured data presented within the documents.
+This chunking strategy was chosen to help with semantic completeness and to contain a complete idea. The Algorithm should 1. Split by paragraph boundaries. 2 Combine paragraphs until approximately 800 characters. 3. Add 100 -150 overlap. 4. Preserve source metadata.
 ---
 
 ## Retrieval Approach

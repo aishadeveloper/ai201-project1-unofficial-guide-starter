@@ -1,0 +1,249 @@
+Source: Stunlock (stunlock.gg/posts/undergrad)
+Author: (experienced software developer, 20+ years industry experience)
+Title: My Thoughts on WGU and Online Schools
+Date: 2025/06/09
+
+TLDR: If you don't care about anything other than hours, costs, difficulty, and remarks on specific classes jump to the stats section.
+
+---
+
+Origin and Motivation
+
+I started my career shortly after the Dot-com bubble burst. Despite the crash, it wasn't particularly challenging to land a software role. I had just moved to Salt Lake City to attend the University of Utah. The University was quite famous for computer scientists such as Ed Catmull, Alan Kay, Jim Clark, Ivan Sutherland, and many others. I was really excited to attend; I had spent the previous years adopting linux in the 90s and experimenting with computer graphics in OpenGL.
+
+There wasn't a lot of information to be found about these programs at that time. A lot of people didn't have the internet in their homes in 2001. It also turns out that college level math classes are pretty challenging, especially for a young and poorly disciplined student. There was no Khan Academy, LLMs, or YouTube videos to help you out. My excitement over attending the University quickly evaporated along with my savings. A few of my friends worked for a startup that needed more developers and I was able to land a job with them working on an international e-commerce site that used Macromedia Flash.
+
+I took another job that had an hour commute. I was finishing my fourth term at school and I was miserable. I was already making just enough money to live on. Between the commute, my lack of enjoyment of the first two years of classes, and the brutal hours of a startup I decided I was tired of school. I didn't re-enroll for Fall 2003.
+
+As of 2025 I'm now midway through my career. I've worked for many companies including small startups, established large corporations, and freelancing. I've watched the rise of web, mobile, crypto, 3D, VR, NFTs, and now AI. I had been paying attention to machine learning and watching some very interesting developments, especially in computer vision and Generative Adversarial Networks (GANs). I've taken a keen interest in emerging technology as a way to stay relevant in the industry.
+
+I had always found programming pretty enjoyable but not the mathematics. I lead the development of several real-time avatar systems at Daz 3D. One of the more interesting things I've built was the tech behind auto fitting assets onto morphable characters. I stumbled upon a wonderful video by Daniel Shiffman about Gradient Descent. This was a pivotal moment for me where something clicked and I then struggled through a solution using some of the concepts behind local and global minima. I later lead the development of our next iteration called Astra.
+
+I felt like I was stumbling through some math that I barely understood to accomplish my goals. I decided to take a free course by Gilbert Strang on Linear Algebra. The class was incredibly challenging but very valuable. This was my first college class, albeit uncredited, since 2003. I realized a few things: it was challenging, I was more disciplined about learning now, it was self-paced, and it went deeper than I would have learned on my own. This was further solidified when I took a Udacity course in 2021 on Deep Learning that I really enjoyed.
+
+As the next few years passed I started to notice new signs of another major tech bubble. I had some younger friends who recently had degrees in computer science mention they were having a difficult time landing a job. Around 2023 I started thinking maybe it was a good idea to go back to school and finish my degree.
+
+Online Schools
+
+I work full-time and have a family, the idea of going back to a brick and mortar school during the day with my schedule seemed rather difficult. I have a very demanding job at a software company and frequently work overtime. While discussing options about schools my wife mentioned Western Governor's University to me one evening. At first I was a bit skeptical as I wasn't sure online schools had a good reputation or were properly accredited. I did more research and found out the school was accredited with the same body that does many of the schools in my area, including the University of Utah. WGU's College of IT also became ABET Accredited in 2023. It's affordable, it's flexible, and if you're motivated it can be done faster than traditional programs.
+
+I ended up consuming a lot of reviews about courses at WGU either on reddit.com, degreeforum.net, and youtube.com. I ended up finding out about sophia.org and study.com which WGU allows some classes to transfer in. Both sophia and study have ACE accreditation for all or some of their classes. I ended up plotting out the classes that could be transferred in. My goal was to get as much done as possible outside of WGU and then hopefully finish in 1 or 2 terms at WGU.
+
+Sophia.org
+
+I was able to get my feet wet at sophia.org. In February of 2024 I signed up for a 4 month account for $299 USD. The program lets you complete as many classes as you want as fast as you'd like. I ended up taking 15 classes over 6 months, which cost $497 USD in total. When I was in high school I took a class at my local community college during the summer. The classes at sophia felt pretty similar in difficulty but the scope was definitely a bit smaller.
+
+Each class is its own unit and varies quite a bit in scope, quality, and difficulty. The platform is very simple to use and is a great option if the school you want to transfer into takes these credits. For the price it is amazing. The exams were not really proctored outside of a typing thing to try to catch people taking someone else's exam. I would say it's mostly up to you to be honorable about this. Not all classes have exams, some are project based such as the Philosophy class which is essay based.
+
+Study.com
+
+After my last class at sophia was done I immediately started at study.com. In 2024, the price was $252.51 USD per month. Study takes a similar but slightly different approach to classes over Sophia. While you can take as many classes at whatever pace you want, you are given 2 credits per month for the exams. The exams, at the time that I did them, were proctored via a recorded video. You were given instructions on how to scan your room and desk, had to install a special browser, and the video was checked after you completed the exam (not during). Earlier this year they changed their pricing and removed proctoring. I don't really agree with removing the proctored exams. The classes were not super difficult and I feel it devalues the reputation of the programs.
+
+I ended up completing 7 classes at study.com and having to pay for a few extra exam credits as I exceeded my allotment each month. I spent $660.83 USD in total. The classes at study.com were quite strange. They are basically a collection of mini modules that overlap between different classes. There was one standout class "Computer Science 306" which had you design a working ALU in Logisim. This class was equivalent to WGU's "Computer Architecture - C952".
+
+Certs
+
+I decided to get certified with the Scrum Alliance since this would transfer in for WGU's "Software Engineering - D284". I did a three day early morning course to avoid conflicts with work. After the class I took a non-proctored exam and became certified. It was very simple since I have a development background and have had to use Scrum in previous jobs.
+
+WGU Academy
+
+I ended up taking an academy class, which is like a mini one-off class at WGU. If you pass and then apply at WGU they take the transfer and refund your $99 USD payment. I did the Ethics in Technology class and found it had some issues that referenced material only available to full WGU students, not Academy students. I was able to finish the class despite not having access to all the material though and it ended up not being a big deal. This was my first experience with WGU's proctoring through ProctorU. The proctoring isn't as bad as people make it out to be. I don't love it but it wasn't obnoxious either and it's just a necessary evil in my opinion.
+
+If you are curious about what a class is like at WGU, I highly encourage you to take a WGU Academy class for one that would transfer into your major. This will give you a good feel for the class and the proctoring process. Considering it is only $99 USD that is refundable if you enroll, it's a very good way to answer your questions.
+
+WGU
+
+I was very eager to get started with WGU as I had heard rumors that the CS program was going to change. I formally applied and waited for my transfer evaluation to come back. In the middle of the process WGU announced they were making the change to the CS program. I got a transfer evaluation back and one class was no longer on it. It was quite frustrating watching classes I completed that were on the official "Transfer Pathways" fall off. Overall I ended up losing 5 classes in total due to the program switch. In addition WGU took zero of my University of Utah classes. To their credit they do disclose that math based classes must have been completed in the previous five years.
+
+I started my first full WGU course on December 1st, 2024. By April 29th, 2025 I finished the last class in their updated program "Computer Science Project Development with a Team - D687" with a month to spare. Midway through I was a bit concerned I might not finish in one term because I ended up becoming extremely busy with work but the desire to save on paying out another term was a huge motivation that kept me working towards finishing.
+
+Total price for WGU came out to be $4,285 USD.
+
+Costs vs Brick and Mortar
+
+Since I had 2 years of classes at the University of Utah I did consider attending classes there and finishing my degree. I spoke to someone from the engineering school about finishing and they said they would accept most of my classes from about 20 years prior. I would likely have needed 5 full-time semesters to finish. When I priced this out I was looking at around $25,000 USD and taking about 2-3 years to finish. Current costs for a full 4 year program would be north of $40k if starting from scratch.
+
+Difficulty and Rigor
+
+I think the CS program at WGU, overall, is sensibly adequate. It's not likely to be as challenging as your premier state school, such as the University of Utah, but it is likely more challenging than your typical community college. There are some classes you have to do at WGU such as "Discrete Mathematics II - C960" that can be pretty challenging to complete. The final, in particular, may be difficult to finish in time and covers the same material that a brick and mortar school has. If you can pass the exam, and it is live proctored, you likely know the material. Some other classes have well designed and challenging projects like "Data Structures and Algorithms II - C950".
+
+WGU is a great school for people that are highly motivated, self directed, and have existing experience in their field of study. You will likely find that a few classes at WGU can be focused solely on the projects and completely ignore the material. The classes have a lot of information and frequently choose good books as their basis for the course. WGU has no required quizzes, mid-terms, homework, etc. Classes either have a single exam or one or more tasks to complete. This is unusual when comparing to a more traditional school.
+
+I'm not sure what others will say regarding this, but since I did two years of study at the University of Utah, there are classes I have done at both schools. Overall you will spend much more time per class at traditional schools than WGU. It's up to you if that is a good thing or not.
+
+I did find some of the classes to be a bit more business or vocationally focused than I expected. WGU sometimes leans a bit on the side away from theory for many classes. There are also a few gaps that I wish they would cover as foundations such as Linear Algebra. Overall it's a decent blend and it never gets too much into the business side.
+
+How Well Prepared are Graduates of WGU BSCS?
+
+Overall I think the program covers many of the same topics that most other institutions would cover. Harder colleges typically will push more math into their programs such as requiring Calculus II or III. Many programs also include Linear Algebra. You will definitely learn the foundations that other students gain from other schools. As far as how this prepares you to work in the field, it's mixed. I think the primary issue with Computer Science, in general, is that it is a bit heavy on the math and theory and a bit removed from the actual real process that we do in software. WGU does try to push a bit on the practical side.
+
+As someone that does hire developers on a frequent basis I would say that WGU does check the box so-to-speak. It provides enough of the fundamentals without being too easy of a program. It is broad enough in its domain and does get a bit deep into some topics that I feel is valuable to both the employee and employer. All that said, like any other institution it won't make you a good software developer. You will need to work on your own projects or have plenty of professional experience to really know what it takes to get real projects done in the wild. I think the one advantage of WGU over many other programs is that it will give you a broader sense of the business side of programming that many colleges don't seem concerned to teach.
+
+Masters Programs
+
+For students interested in going into a masters program after getting their undergraduate degree I do feel WGU adequately prepares you for most graduate level programs. Specifically for the CS program the work you will do on proofs and recurrence relationships is particularly useful in future studies.
+
+One important note about pursuing a Masters: WGU does not have letter grades. If you get a transcript from them your GPA will be interpreted as 3.0+. This can be a problem for some people looking to pursue a masters degree both due to a lack of the GPA on the official transcript and as some programs have higher GPA requirements for your undergrad. Make sure you do some research and you may want to contact the school you're interested in before you start. The other part is you won't make any real connections with professors at WGU and may lack letters of recommendations from your undergrad. Also the total credits for the new CS program are listed as 117 credits when many programs have 120. You should be very careful about how you approach this if a Masters is what you're going for.
+
+Whether you agree with college ranking systems or not they do play a role in life. While WGU is decent it does not appear on rankings such as US News. It has been around for over 25 years and the enrollment rate is massive. As of August 6th, 2024 WGU has 340,000 alumni. There is a small stigma but I believe it will go away over time especially as more and more of your colleagues are from WGU.
+
+Speedrunning / Rushing the Program
+
+When you search for information about WGU you will come across many different people that have finished their degrees at incredibly fast paces. I think WGU could stand to increase some of the difficulty of their classes and add additional work that must be done. Some classes are incredibly trivial at the school, but this is true at many other schools. However, when you see people saying they finished the program in a few months or within a month it leaves some concerns. When you do a bit of digging, you will often see that these people typically have professional backgrounds in their field of study. In other cases they are working on the program full-time with few distractions. There is also a lot of "pre-studying" for many classes which is useful to save money but sometimes dishonest in terms of time spent on a course.
+
+Keep in mind that if you are not familiar with the material, have a family, a demanding job, or other responsibilities you are not likely to complete the program as quickly as some others. WGU officially states that the average time to earn a bachelor's degree is 30 months or two and a half years; this is already shorter than the typical 4 year traditional program at other colleges.
+
+Is WGU Worth It?
+
+In short, yes. I dedicated a little over a year of my life outside of work and family and was able to finish my undergrad, essentially, from scratch. There were plenty of knowledge gaps I filled in that I never covered in my own learnings or through work. Some tasks were challenging, some of it was rewarding, some of it will be useful in my career. Considering that every year the percent of people obtaining degrees increases by 8.9% each year, it may be likely to become more difficult over time to land a job without one.
+
+Would You Recommend It?
+
+I can only speak to the computer science side as that's what I did. I would recommend this path for people that are already working in the industry or have a background in software. If you are learning all of this from scratch I think it will take a good amount of time to get through and it may end up taking many terms to finish.
+
+For those that are 5+ years into a software role without a degree, I highly recommend getting one from WGU. The tech market is very different from where it was when I first started my career in the early 2000s. Even if you are a senior dev it's currently challenging to land a role and having a degree is something that Applicant Tracking Systems (ATS) may reject you without ever letting your resume land in the hiring manager's inbox.
+
+I have interviewed many people in my career. The only time I care about them having a degree is if they have little job experience. While I know others feel the same as I do, my experience dealing with HR is the opposite. HR seems keen on wanting to filter out as many candidates as possible. I feel like you will be at a significant disadvantage if you don't have a degree now.
+
+What is the Computer Science Program at WGU Like?
+
+It starts by you contacting them online and stating that you're interested in attending. You complete some general information and are prompted to send in any transcripts, certifications, AP scores, etc. The CS program requires that any mathematics classes must have been taken within the last 5 years of enrollment. They do have "Pathway Agreements" for several institutions like Sophia, Study.com, Straighterline, and others. You need to be careful about this — I had completed a lot of prep work to try to maximize my transfers and the CS program switched in the middle of my application. I ended up losing credit for 5 classes.
+
+Once enrolled you have a basic orientation to complete, then school starts on the 1st of the next month. You are given a Microsoft 365 account and a WGU email. You will be assigned a few classes in your first term. Each term is 6 months, or roughly 24 weeks. As you complete classes you can accelerate and move other courses from future terms into your current one. You are required to meet with your mentor around once a week on a call.
+
+Every class has a course instructor assigned to you who you can reach out to if you need. Unfortunately I did not find this helpful. Each student's experience is likely to be unique — many people had really positive interactions with their instructors and others, like myself, did not. These instructors are not traditional professors but should be able to answer questions about the class.
+
+This is where classes at WGU greatly deviate from traditional programs. There are almost no lectures in the CS program. If there are any videos at all they are typically supplemental or done sporadically and on 3rd party platforms such as LinkedIn Learning, Pluralsight, Udemy, and others. Some classes, such as the math classes, use tools like zyBooks, which are basically interactive textbooks without videos. For more challenging material there are many great resources on YouTube and Khan Academy.
+
+Your course list is fixed based on the degree program you have chosen. There are no electives to choose in your program. For textbooks these will be a bit all over the place. Some classes you will reference none, and others you will read from one heavily, and again others you will bounce around with many textbook sections from a large collection of different books.
+
+What I found most irritating was WGU's use of Open edX for courses in its entirety. This program is awful, at least in how it's done or used at WGU. It frequently cannot maintain basic things like if you completed reading a section or not. The material inside seems disconnected and doesn't follow a single cohesive flow. There is also a large push to discuss how this will help you in your career, which you can easily skip. You will very frequently be referencing many different resources on many different vendors, which makes searching through the course next to impossible.
+
+Despite the above flaws the actual dashboard works well. The degree plan is nicely laid out. I didn't really have any complaints about this other than frequently being kicked out due to session timeouts.
+
+Every class has a singular exam or one or more tasks to complete. This system makes it extremely clear what is expected from you. For exams there is a practice assessment you must first complete that will then open up a proctored exam that actually counts towards your grade. The practice assessments are very close to the actual exam, though the questions are not identical. If you can pass the practice assessments with a decent margin you should feel fairly confident about the graded exam. The final exam is typically slightly more difficult than the practices. You should also be careful if you end up studying using random Quizlets from other students or instructors — those questions are typically from the practice exams and course optional quizzes so you shouldn't just memorize these answers.
+
+Classes that have tasks typically have between one to three of them. These tasks require you to read a rubric that tells you what you need to accomplish. This is not always straightforward. I was often left scratching my head trying to understand what they wanted me to do. They are sometimes very verbose in what they want you to do. All that said the grading is extremely fair. It really does boil down to "follow the rubric." You have no grade, there is no reason to "try harder" unless you want personal knowledge or satisfaction here.
+
+There does not seem to be any practical or well defined limit with re-attempts of either exams or tasks. I never failed an exam at WGU, and only had a few task attempts get kicked back once. This greatly deviates from traditional institutions but I did find that things were less stressful because I knew there wasn't as much at stake.
+
+A huge benefit to the program at WGU is that everything is included. There are no additional fees, no extra books to purchase, no subscriptions you must buy, no 3rd party exam certifications you must account for. Even your diploma is mailed to you without paying any additional money.
+
+When you finish your last class at WGU you will schedule a call with your program mentor and then take a final survey. Upon completing this a review will be done at WGU to ensure you're ready to graduate and then you'll have your diploma sent to you in a few weeks. The process is incredibly smooth and they explain every step. With a few exceptions if you finish early you will not need to wait for your term to complete before you are awarded your diploma.
+
+Proctored Exams
+
+You might read that the proctoring is annoying for online programs. It can be, but my experience with them in general is that it was fine. After completing both task-based (PA) and exam-based (OA) classes at WGU I would definitely say I preferred the exams. I only had one annoying proctor in all of my exams and it wasn't really that bad. The majority of my exams, which are through ProctorU, were reasonable. After a short discussion with a proctor you basically forget about them and go about your test.
+
+If you have the financial and technical means, pick up a cheap and/or used computer to use as your proctoring machine. You can then wipe your computer clean when you're done. I don't really trust these applications they make you use nor the proctors in general and I feel pretty strongly you should not be using your primary computer and should factory reset/reinstall upon completion.
+
+WGU and Grammarly
+
+WGU has a weird love affair with Grammarly. You will be given a failing grade if you turn in anything that Grammarly, which is an AI-based text writing/grammar tool, says is poor in some areas. I don't care for Grammarly myself. It complains about tone frequently, especially passive voice. I do a lot of technical writing in my career and I write mostly in passive voice. Having to run all my papers through this before turning it in and fixing every "red" item became deeply frustrating and felt like a giant waste of time.
+
+Staying Motivated
+
+I think anyone will do well in an online program by being fairly disciplined with their education. I found that trying to commit 10-20 hours of studying was an effective amount of time. This seems to line up with other recommendations online and even WGU itself. I also found it very helpful to put all the classes in a spreadsheet and track their progress as I went through each of them. I tracked data like how hard other students felt the classes were, my time spent on them, and made predictions to how many more hours it would take to get through the class. I worked backwards from my predictions to have a better understanding if I was on target with my goals. I didn't force myself to work on school every day but I did force myself to a minimum number of hours per week.
+
+For some the cost of doing more terms or spending more months with subscriptions can be a strong motivating factor into pushing yourself to get more out of each month. This was definitely a big factor for myself. I knew I wanted to not spend more than two terms at WGU and I wanted the overall cost to be lower than what it would cost to finish my degree at the local University.
+
+Stats
+
+Note: I am a software developer with over 20 years of professional experience. I have worked on a wide variety of systems such as full stack development, all major operating systems, databases, mobile, embedded systems, ASM for Intel ARM and intrinsics, 3D, XR, DSP, desktop programming, optimization, networking, machine learning, numerous programming languages, and many other disciplines.
+
+In total the entire program, from Sophia, Study.com, Scrum Alliance, WGU Academy, and WGU took 606.62 hours for me to complete. I started my first class at Sophia on February 15th, 2024. My first class at WGU began on December 1st, 2024 and I finished my last class at WGU on April 29th, 2025. The entire program took 1 year and 2 months and the time I spent at WGU specifically took 5 months. I was able to complete the WGU program in a single term due to the outside courses I completed before entering.
+
+Cost summary:
+- Sophia.org: 15 classes, average 16 hours each, $497.00 total ($33.13/class)
+- Study.com: 7 classes, average 15 hours each, $660.83 total ($94.40/class)
+- WGU Academy: 1 class, 34 hours, $99.00 (refunded upon WGU enrollment)
+- Scrum Alliance: 1 class, 15 hours, $300.00
+- WGU: 17 classes, average 13 hours each, $4,285.00 total ($252.06/class)
+
+Brief Remarks on each WGU Class (alphabetical order):
+
+Advanced AI and ML - WGU: Seems like a replacement for the previous capstone removed in late 2024. If you finish Artificial Intelligence Optimization for Computer Scientists (D682), you should be OK with this class. Most difficult part is coming up with a concept for what you want to do.
+
+Advanced Data Management - Study.com: The practice vs real exam was quite different. If you auto-completed a lot of this course you will likely not know the answer to many questions.
+
+Advanced Java - WGU: Good idea of a class but I did not like the implementation; it's not how you would do this in the real world. Very easy to complete if you have any background in programming with threads and localization.
+
+American Politics and the US Constitution - Sophia: Very enjoyable but a lot of material to read and memorize. It's a great class that covers how the US Government works.
+
+Applied Probability and Statistics - Sophia: Not a terribly difficult course; a good refresher on stats if you've already studied it.
+
+Artificial Intelligence Optimization for Computer Scientists - WGU: The course task is well designed but the learning materials are difficult to follow as they feel out of order. If you don't already know how to train a model you'll have a very difficult time with this course. The actual book is good but you aren't explicitly told to read the entire thing.
+
+Back-End Programming - WGU: Did not care for any of the courses that used Java. If you're already experienced with web programming this shouldn't be much of a challenge.
+
+Business of IT – Applications - WGU: Very easy class if you have any production background in IT. Read the practices chapter, watch the ValueInsights, and do the GitHub and Jason Dion practice quizzes and you should be in a very good position.
+
+Calculus I - Sophia: Decent course. A good refresher if you haven't forgotten everything about Calculus. You will need to already know algebra well for any course in Calculus.
+
+Composition: Successful Self-Expression - Sophia: Easy class, just takes some time to write papers. Not a bad class.
+
+Computer Architecture - Study.com: Decent course that you will learn a lot about circuitry. It has a decent amount of focus on memory.
+
+Data Management - Applications - Study.com: Not a terrible class but definitely jumps into complex database concepts too quickly. If you don't already know SQL you're likely going to struggle here.
+
+Data Management - Foundations - Sophia: If you have experience with SQL and NoSQL you should do well here. It might be challenging coming into this without any background with databases.
+
+Data Structures and Algorithms I - Study.com: Not as hard as people make it out to be, but it does help a lot if you have a programming background. Definitely focused on algorithms.
+
+Data Structures and Algorithms II - WGU: Actually a decent task for the course. If you know Python and DSA well you can likely just start the task. The assignment is well thought out and very similar to real world complex problems. If you don't know how to code this is likely going to be a very difficult class.
+
+Discrete Mathematics I - Study.com: I have taken discrete structures 1 and 2 at university but they didn't transfer. The lessons feel a bit repetitive in some areas but other areas like linear recurrence is barely covered and you'd likely need to seek outside information.
+
+Discrete Mathematics II - WGU: A fairly challenging class in terms of broad topics. The biggest challenge is the sheer amount of material you need to know. The OA is a bit more challenging than the practice. You should absolutely be confident in figuring out inverse mod, extended euclidean, and probabilities/counting. I spent the most amount of time on this course.
+
+Ethics in Technology - WGU Academy: The book is very dry with many laws to cover. While the book is a bit dull I felt it was very useful and ended up reading it cover to cover. It's actually a very useful course if you work in software.
+
+Fundamentals of Information Security - Study.com: Not a great class. It repeats itself quite a bit and doesn't really get beyond a surface level understanding.
+
+Global Arts and Humanities - Sophia: A quick class that teaches you about the ancient Greek philosophers. While it doesn't get super deep it's a decent introduction into ancient philosophy.
+
+Health, Fitness, and Wellness - Sophia: Interesting class, easy and enjoyable, took a bit of time.
+
+Introduction to Artificial Intelligence - Study.com: Not a terrible intro to AI but it could be improved. I'd recommend you take this at WGU instead.
+
+Introduction to Communication - Sophia: Easy class if you don't mind writing. Even easier if you're already familiar with management or office work and culture.
+
+Introduction to Computer Science - WGU: If you already have a working experience in software development this is a very easy course.
+
+Introduction to IT - Sophia: Very easy course if you're already familiar with IT, computers, etc.
+
+Introduction to Systems Thinking and Applications - WGU: This was a new concept and a new course. The assignments were decently straightforward and easy enough to follow. This course felt very business focused, so if you've done any project management or business related courses in IT this should be pretty similar.
+
+IT Leadership Foundations - Sophia: A bit dull and very vocab focused. Not difficult to complete.
+
+Java Frameworks - WGU: I really don't care for any of the Java classes at WGU. I have nothing to add that anyone else hasn't already written about.
+
+Java Fundamentals - Sophia: Very easy for someone that knows how to program in another language even if you don't know Java. It's nearly identical to the Python class at Sophia.
+
+Linux Foundations - WGU: Very easy exam for me as I started using Linux in the 1990s. If you don't know Linux this is likely quite a challenging class with a lot of new things to learn.
+
+Natural Science Lab - Sophia: Fun class done in an application, very different from other classes at Sophia. The writing projects aren't very well designed but if you just put a lot of information in them you'll get through them.
+
+Network and Security - Foundations - Sophia: Very poor course. Covered a lot of old information about networking and Cisco-specific details. Can seem a little difficult because it goes into a lot of tech that isn't super common for most people.
+
+Operating Systems for Computer Scientists - WGU: So far the best course I've taken at WGU. Actually filled in some gaps I had in how processes and threads are selected even though I have professional experience in multi-threading with C++. This is the type of class I can really stand behind — well designed and covers a lot of material.
+
+Practical Applications of Prompt - WGU: Mostly focused on entry level concepts along with ethics and does not get into very deep or specific topics. There is a good chance you could pass without reviewing anything if you work in this field or have studied ML.
+
+Scripting and Programming - Applications - WGU: Very easy class if you have any background with C or C++. This project is much more straightforward than the Java projects.
+
+Scripting and Programming - Foundations - Sophia: Likely an easy class if you know Python.
+
+Software Design and Quality Assurance - WGU: Extremely easy class if you have any experience with software tickets. While the tasks they ask you to do are realistic the amount of additional work you have to put in is extremely unrealistic.
+
+Software Engineering - Scrum Alliance: Anyone that has any programming and/or project management experience will have a very easy time. The scrum test is quite easy if you do a few hours of studying and pay attention in the class, but the exam does ask questions that were never covered in material. If you go this route, you'll need to realize the classes are live and must be scheduled.
+
+Version Control - WGU: If you use git already you will likely wrap this class up on your first day at WGU. It's more of a light intro to make sure you can complete the later courses.
+
+Web Development Foundations - Sophia: Should be quite an easy class if you have any web development experience.
+
+Conclusion
+
+If you ended up reading everything above I hope you found this post useful. I spent a lot of time looking for what others had to say about WGU before deciding to enroll. I wanted to give another opinion and more information to help others make a decision.
+
+If you are anything like me I can highly recommend going this route. Traditional programs are great but it's hard with a demanding job to work them into your schedule and I'm very grateful programs like WGU and others are now becoming more common. I enjoyed this approach enough that I am now pursuing a masters degree in computer science which I didn't anticipate when I first started. I think online programs like this can be very affordable if you're motivated and plan well.

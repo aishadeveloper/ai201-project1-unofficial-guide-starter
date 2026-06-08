@@ -1,0 +1,86 @@
+Source: Reddit r/WGU
+Author: QuarryTen (OP) + community responses
+Title: Structure of a Typical Course
+
+---
+
+Original Post (QuarryTen):
+I was just wondering how courses at WGU are structured. I'm an online-only student so most asynchronous courses have modules with readings, discussions, assignments/quizzes on a weekly basis. With WGU terms being 6 months long, how exactly are your courses structured? Do they just throw a bunch of assignments and readings all at once, give you a 6-month due date, and provide a mentor's number in case you get stuck on something? If that is the case, how has it been for you guys; would you say your experience with WGU and their style of things is much better/more effective than a typical 3-month asynchronous online course?
+
+---
+
+COMMENTS:
+
+Mr_Regulator23:
+I believe the people that succeed the most at WGU are the ones that are self-motivated, driven individuals. All the material you need to successfully pass every class at WGU is given to you up front. It's up to you to make your study plan and execute it. That is the beauty of WGU. There are no requirements outside of passing an exam called an Objective Assessment (OA), or writing a paper called a Performance Assessment (PA). Sometimes there are classes that have both an OA and a PA. In my entire degree plan there are only 2 classes that have both.
+
+Since there is no structure outside of what you are capable of doing, you aren't stuck in a single class for 3 months unless you choose to be. I've finished classes between 3 hours to 3 weeks and everywhere in between. Not only can I go at my own pace, which is super fast because I absorb information quickly, but I am paying a flat rate, which is also far cheaper, to finish as many classes as I can take in 6 months. That means after 20+ years of trying to get my degree and failing at normal schools that bore me to death, I can finally get my degree in just 6 months.
+
+If you want a class to be more "effective," then study it for longer and make sure you understand all the material. If you want to finish a class quickly because it bores you, then knock it out in a day. It's the best of all worlds. But like I said in the beginning, if you aren't self-motivated and driven, if you need your hand held every step of the way, WGU is not for you.
+
+---
+
+Mr_Regulator23 (follow-up on study plan):
+I didn't have an official study plan that I made for myself. I was simply motivated to get my degree because of opportunities for promotion at work. I spent every ounce of free time I had on classes. Once I began at WGU a pretty simple plan came together. You need to understand how you learn best. I have horrible reading comprehension because I get bored while reading long blocks of text. But I have an excellent photographic memory — I can learn anything visually. So flash cards worked amazingly for learning and retaining information. Since the exams are based on those materials, once I felt confident enough I would retake the practice assessment. If I scored highly I would schedule the OA and cram until I took it.
+
+I focused solely on one class at a time. They gave me access to 3-4 at a time but they seemed to be relatively in order so it made sense to just knock them out in a row and not concurrently.
+
+---
+
+tothepointe:
+No group work or discussions or any kind of paced assignments. For example, there have been classes where I was able to take the OA by doing nothing else but studying flashcards that were already on the internet. Then there have been classes that required a bit more time. I felt I needed to utilize every resource provided to pass. For those kinds of classes, I rely more on writing my notes over and over again until they stick enough for me to do flashcards and take the practice tests. You gotta be good at self-discipline and willing to adapt.
+
+---
+
+bizzylearning (M.S. IT Management):
+I got my Associate's degrees online, in a traditional school, but with asynchronous learning. We were still limited by whatever material the instructor would open, and if you completed the work in a week, you had to wait for the end of term to take the final exam and move on. At WGU, it's not like that.
+
+You start with about four classes (think 12 credits, like normal). Those four are available at the start of your term, and you have to complete them in the six months of your term. BUT (and here's the cool part), you get them done at your pace. So say you open the Intro to IT course, and you've been doing IT for a decade — you may take the pre-assessment, ace it, and schedule to take the final (Objective Assessment, or OA) that day. OK, you're done. Three CUs complete, and you move on to the next class.
+
+Perhaps the next class is Spreadsheets, and you've never done more with a spreadsheet than add your name to a signup sheet. That's okay too. Each course has a course text (complete with chapter quizzes, unit tests, and module reviews, just like any course text) and you can use as much or as little of that as you need. There are no deadlines for completing this work because you only do the work if YOU determine you need to do it to develop proficiency. The grades are calculated instantly but they are not part of your final grade because they're just to provide you with feedback. There are videos, notes, study guides, and additional resources listed in each course. There are live sessions you can sign up for (similar to a professor's office hours). WGU also includes subscriptions to third party resources, like Pluralsight, Udemy, etc. Whether it takes you three days or three weeks to complete this course, when you are ready, you schedule the final and take it. Boom. Next.
+
+If you complete the initial four courses, you can call it a term and wait for your next term to start to open the next batch of courses, OR you can ask your mentor to open the next one. And the next one. And so on, until you either complete your program or reach the end of the term. It really is that straightforward. Of course, there is the risk that if you're used to waiting for a due date to get something done, you could find yourself having wasted six months and done nothing. So figure that out early — at WGU, it's entirely on you to do the work and reach your goals.
+
+---
+
+Sociological_Earth (M.S. Data Analytics):
+I'm in the Master of Science in Data Analytics program. Thus far most of the courses have been consistent in their structure. All of the material and resources are available. There are some lecture videos, free textbook resources, links to YouTube videos, and the main resources being DataCamp. I've completed a course about every two months studying about 15 hours a week (I also work full time).
+
+I would say the most difficult thing when first starting is learning where to find all of the resources. They didn't hold up a big sign saying "here's all the resources for the class." I had to go through the whole course website and find things.
+
+For my program, I generally like to do lecture videos first, then DataCamp, then look at the PA and figure out everything I need, then review my notes and textbook material for things I may have missed.
+
+---
+
+ihadtomakwathrowaway:
+You are given all the material you need up front. To pass a class you just need to pass the OA, which is your Objective Assessment. The OA could be a project, a paper, a test, etc. As far as I'm aware the OA is never more than two parts, and for the most part will just be a singular OA, at least in the degree I'm doing.
+
+For example, if one of your classes is Applied Probability and Statistics, but you already know all the math, you can just take the OA and be done with it in the amount of time it took you to pass said OA. You'll see a lot of people posting on here about having done their degree in x days or x months. (Not realistic for most people though — these people have usually been in their field for numerous years.)
+
+Regarding resources: most of the certification-based classes are on Udemy, which is included in your tuition, along with books and the WGU library. Some classes link to an external site where you go through material a chapter at a time and do reviews. There are different ways available to learn but I try to stick to mainly video-based stuff because it gives me the benefit of being in a class, but with the ability to pause, take notes, and be "in class" for 8 hours a day to get more done. Reddit is also super helpful! If you're doing IT just search r/WGU or r/WGUIT using the class name or number. You'll find other people giving advice, what they did to pass, the study material they used, what was difficult/easy, etc.
+
+I personally like learning through the video chapters and practice tests on Udemy, but I didn't make it anywhere by just watching — it wasn't until I started taking notes that I really retained anything.
+
+My mentor calls once a week at a time that was good for both of us. Usually we have a 30-second chat if I'm not having any issues, but if I am he hangs out on the phone for a couple minutes, gives me some guidance, answers questions, and points me in the right direction. Though not everyone has this experience — if your mentor sucks you can get a new one.
+
+In my experience, my course instructors only reach out via email to check my course progress, provide some resources, and share some tips. Though you can schedule a call with the instructor or your mentor for whenever you and they are both available if you need additional help.
+
+With WGU you get what you put into it. You will get a really good education if you put the time in and find a way to learn that works for you. OAs are proctored. When you schedule an exam you do it on camera and whatnot. You can usually schedule these OAs at any time you want — I've taken two at 4:30am. So it's extremely schedule flexible if you're someone who has work or family commitments. There's no limit on how much you do in a day; it all depends on your dedication and how much time you have or are willing to spend per day.
+
+---
+
+Longjumping-End-3017 (B.S. Software Development):
+Just a little distinction here for OA vs PA:
+
+OA is an Objective Assessment. These will ALWAYS be multiple choice (occasionally fill in the blank/match) assessments — what you'd think of as a traditional test.
+
+PA is a Performance Assessment. These will be your papers, projects, and presentations.
+
+Some courses can have multiple assessments — either an OA and PA, one or the other, or multiple of one category. PAs can typically be done quicker, as there is a clear-cut rubric on what the requirements are for the project/paper, and there are typically guides or templates available. I recommend looking at the rubric and starting the PA immediately and then referring back to course material as needed.
+
+As far as WGU's model being more effective than a "3-month asynchronous online course"? Absolutely.
+
+---
+
+Mundane-Secretary-31:
+Dude, from someone that tried other schools before: if you can be self-taught and use the crap out of this website for advice from people that went through the class before you, you'll be just fine. Literally all you have to do is search the course code here and you'll have info on what you need to do for a certain class. For example, "c178 wgu" and info on it will pop up! For me I prefer watching a video and then using certmaster to drill the performance-based questions. That's going to be a big thing for you in IT. Then after that take the test.

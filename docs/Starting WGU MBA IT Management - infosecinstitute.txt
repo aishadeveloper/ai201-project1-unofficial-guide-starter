@@ -1,0 +1,130 @@
+Source: InfoSecInstitute community forum (community.infosecinstitute.com)
+Author: JDMurray (Forum Admin, techexams.net)
+Title: Starting WGU MBA IT Management on Mar 1, 2019 — Ongoing Blog
+
+---
+
+On March 1, 2019, I will officially begin the MBA in IT Management degree program at Western Governors University (WGU). This is a two-year journey that I've decided to mini-blog about here in the hopes that my opinions and experiences will help others.
+
+---
+
+JUNE 19, 2019 — MGT2: IT Project Management
+
+I just completed MGT2 - IT Project Management. This course requires three task submissions demonstrating sufficient competency to pass. The tasks are based on typical work and problems a project manager would encounter in creating and managing IT projects.
+
+Overall it was a very good class for me as someone who has only worked in IT projects and has never had to manage non-trivial IT projects. The hands-on, learn-by-doing method of this course really helped me learn the material. The course texts (PMBOK, etc.) are more reference material than reading assignments. The amount of document, video, and live support is more than generous to pass this class. The really tricky part is knowing when you have completed enough of the tasks to turn in. You could keep working on them nearly forever, refining and improving the detail and accuracy. To get me through this course, I focused on something an instructor said: "The task doesn't need to be perfect, just reasonable." That really helped. Still, I took much longer than I needed to complete it because I have a tendency to over-engineer complex work.
+
+---
+
+JULY 1, 2019 — C202: Managing Human Capital
+
+I just passed C202 - Managing Human Capital. This is a Human Resources Management (HRM) class focused on what a manager should know about HR in the USA. The course is basically a grand memory association exercise of HR terms, concepts, and history. It also gives an idea of how the HR department thinks and what a manager should be thinking/doing with his/her own reports.
+
+Studying for C202 is accomplished by sifting through quite a bit of online materials, which includes videos and topic quizzes. There are also pre-recorded tutorial sessions and several very helpful study guide docs. However, a good deal of my "cramming" was from a very extensive flashcard set on Quizlet that was recently posted. I'd recommend this set for anyone taking C202 or wanting a preview of its content.
+
+This was my first Objective Assessment course, meaning that the course is passed by exam testing rather than by submitting papers or projects. Only a single, 70-question exam is required to pass C202. You are given two hours to take it, but I only needed 35 minutes and passed on the first attempt.
+
+In preparation for the final assessment exam, there is a pre-assessment exam that you can take up to three times. Its format and style is a fairly good representation of the final exam. It is recommended that you take the pre-assessment first before studying the C202 material. This will give you a baseline of your native understanding of the material and also allow the instructor to give you advice on what topics you need to study before taking the final exam. You can take the pre-assessment again when you feel that you need testing again, such as a day before you take the final assessment exam.
+
+I have now finished my first term at WGU two months early. I can opt to start the next course in my degree plan (C212 - Marketing) early or take the next two months off for a Summer vacation from WGU work. I am in no hurry to complete this MBA program, but I am very interested in the next class and quite tempted to dive into it now.
+
+Comment from UnixGuy:
+Did you get a chance to go through some theories in Managing Human Capital? e.g. equity theory, goal setting theory, motivation, etc?
+
+JDMurray reply:
+Yes, but only skimmed the concepts in case they appeared on the exam. An MBA course of study only gives you a taste of topics and provides little opportunity for "deep dives" into anything. You would need to do such extra studying on your own. (Does "a mile wide and an inch deep" sound familiar to IT certification fanciers?)
+
+---
+
+AUGUST 27, 2019 — C212: Marketing
+
+I just passed C212 - Marketing. This is a broad-based marketing course whose material is somewhat focused on technology businesses and products. The major topic areas are the function of marketing, Customer Relationship Management, feasibility and profitability of marketing products, marketing strategies, and risks and opportunities in an entrepreneurial enterprise.
+
+There is only one task in C212, a paper in which you create a marketing plan for technology to introduce two new products (goods or services) into a global (non-USA) marketspace. Unless you are already a marketing person, the research you will need to do to write this paper will give you a very good insight into what is needed when considering to launch a specific product in a specific market.
+
+The one curious thing about this paper is the recommended size is 8-10 pages. However, there are 17 headings in the paper's template. Writing one page of material per heading (1-inch margins, double-spaced) and adding a cover, TOC, and references section will bring the paper to 20-pages at a minimum. My paper was 23 pages. My paper was accepted on the first attempt. (Hint: Use a lot of resources on the Internet rather than searching through the course materials to do your research.)
+
+Completing C212 also completes my first term at WGU and puts my MBA program at 34% completed.
+
+Comment from EANx:
+It's important to write the amount that you think is necessary, rather than focusing on a number of pages. The "8-10 pages" for your marketing paper is a suggestion — your submission was 23 pages, mine was five and a half and both passed on the first attempt. I found early on that I went faster when I wasn't trying to add extra material or make material tighter. I decided I'd fix what was needed if a paper ever came back. Only time I had a paper returned was when I didn't answer the requirement in quite the right way, and that only happened twice.
+
+---
+
+OCTOBER 27, 2019 — MMT2: IT Strategic Solutions
+
+I just passed MMT2 - IT Strategic Solutions. This is a 4 CU course requiring papers written to demonstrate an understanding of a wide variety of topics, including business communications, business ethics, risk management, security policies, analysis of IT architecture, business needs, and identifying emerging technologies that may support future business goals. These papers were long and, despite following the course rubric religiously, I'm sure that I over-engineered them as typical for me.
+
+This is another good example of a WGU course where you must steadily chip away at it or it will seemingly drag on forever. Be sure to create all your task paper templates, watch the videos, and read all the FAQ/FYI course information available. I didn't need to communicate with any of the course instructors and there were no live cohorts. You don't need to do the tasks in order (I did 1,3,2,4) but do task 1 first to get you off on understanding what the course is about.
+
+---
+
+NOVEMBER 22, 2019 — C206: Ethical Leadership (54% complete)
+
+This week I passed C206 - Ethical Leadership, putting me at 54% complete for the WGU MBA IT degree. This is a very "soft" course detailing ethical theory, legal and regulatory requirements, ethical problems, and whistleblowing. If you work in a large company that has an ethics department, code of conduct training, and a corporate social responsibility initiative then this course material should be very familiar to you. In fact, you can probably complete and submit all the required work in a week if you are very familiar with corporate legal and HRM ethical issues.
+
+This is the first WGU course that I've taken that has been recently revised (released in September 2019). The cohort sessions covered the requirements of both the new and previous releases. This presented an interesting view of how WGU revises a course to make the material more current and to update or remove aspects of the assignments that have been confusing to a significant number of students.
+
+I decided to try writing the task papers with the minimal amount of information necessary to convey that I understood the objectives described by the course rubric. My previous papers had been very large, which is my typical academic style. For this course, I decided that for each rubric requirement I would write no more than 2-4 paragraphs of concise and detailed description and explanation. This strategy made the papers much quicker to write and I assumed they would be quicker to grade as well.
+
+However, the average time to process each paper for grading (including resubmissions for corrections) was nearly two days — the longest of any course I have taken at WGU. I believe this delay is because C206 is a required course in many degree programs at WGU. There are probably many thousands of students concurrently enrolled in C206 all competing for attention from the graders.
+
+---
+
+JANUARY 26, 2020 — C211: Global Economics for Managers (63% complete)
+
+Today I passed C211 - Global Economics for Managers, putting me at 63% complete for the WGU MBA IT degree. This course is a survey of micro and macroeconomics at a high level with no math (but there are some graphs). The information in this course is very relevant to current USA financial news involving tax cuts, tariffs, the Federal Reserve, international trade, and economic globalization.
+
+This was my most difficult course so far at WGU. I find economics very interesting, but the hundreds of terms, definitions, and concepts that this course presents were really more than I ever wanted to know. I made the mistake of taking this course over the Winter holidays and while I was having major remodeling work performed on my house.
+
+This course is completed by passing a single objective assessment of 50 questions with a passing score of (I'm estimating) 75%. I studied for this assessment in exactly the same way I would for a certification exam: compiling study notes from the course's text and video material, studying only from my notes, scheduling the exam, and then cramming right up to the day of the exam. I passed with a score of around 75%. I genuinely thought I would need one or two retakes to pass.
+
+---
+
+FEBRUARY 26, 2020 — C207: Data-Driven Decision Making (71% complete)
+
+I just passed C207 - Data-Driven Decision Making, putting me at 71% complete for the WGU MBA IT degree and finishing my second term at WGU. This course is a survey of quantitative analysis, statistical tools, and quality tools that requires demonstrating the understanding of how to apply the proper analysis technique to the proper data sets to answer specific questions. I have no background in data analysis, process controls, or the problems involved in data sampling and bias, so I had to learn everything from the ground up.
+
+This is the only course in my degree plan that has both a performance assessment (two papers) and objective assessment (final exam). The first paper describes a simple statistical analysis of some real-world data of your own choosing. In the second paper, you present the results of your analysis in a business report form. It took a couple of tries for me to get the first paper accepted (they are very picky about using the correct wording) and I nailed the second paper on my initial attempt.
+
+There are so many concepts in this course to learn, understand, and memorize: compare the t-stat to the t-critical; know the threshold where the p-value rejects the null hypothesis; histogram vs Pareto; to use linear regression or linear programming; r-square or Bayes theorem. The OA exam is only 70 questions, so most of what you learn will not be on the exam, but you have no idea exactly what will be on it (hint: know standard deviation really well). You must also know how to calculate probability, simple index, and standard deviation for the exam — including memorizing how to draw the Empirical Rule standard deviation chart from memory.
+
+PRO TIP: You do not need to use a calculator to do the simple arithmetic formulas required for the OA exam, but one is very handy to have. The WGU student handbook has a long list of financial calculators acceptable for use. I bought an HP-12C Platinum for $50 and it worked more than well.
+
+To study for the C207 OA exam, I advise reading/watching everything presented in the course learning plan, attending the live webinars and watching the pre-recorded ones multiple times. Do all the quizzes and drill until you are lecturing other people on statistical models, quantitative analysis techniques, and the differences between quality control and quality assurance. Don't forget to engage your course instructor(s) with questions about what you are not understanding. And finally, may the mean, median, and mode be with you.
+
+---
+
+APRIL 13, 2020 — C213: Accounting for Decision Makers (80% complete)
+
+I just passed C213 - Accounting for Decision Makers, putting me at 80% complete for the WGU MBA IT degree and in my final term at WGU. This course is a survey of everything to do with accounting. It's "a mile wide and a foot deep" in budgeting, profit planning, cost systems, financial analysis, controls, and regulations. I have no background in finance or accounting and had no prior learning to give me a base for tackling this course. Therefore, this course was my most challenging yet at WGU.
+
+The only requirement to pass C213 is to pass the Objective Assessment (OA) exam. To study for this exam, you must eat this elephant one bite at a time and at a steady pace. Watch all the videos in the course materials, do the quizzes at the end of each section, and read through all of the Course Tips materials. They are put there to help you pass the course more than to make you a better accountant. If you have an accounting/finance background you will burn through the course material a lot faster.
+
+I can't recommend the C213 cohort webinars enough. They are invaluable for understanding cash budgeting, internal control and regulations, and financial statements and calculations.
+
+PRO TIP: Once again, a calculator is very handy to have for the assessment exams, but just a 4-function with percents is all you will need.
+
+I ended up doing much better on the C213 OA exam than I had hoped, receiving a high score of around 80-85%. The C213 pre-assessment exam is the same type of content as the OA exam, but the questions on the OA exam can be worded a bit oddly and use terms that you may not have seen in the course material. Over-study for the C213 pre-assessment and you'll pass the OA exam the first time.
+
+Finally, some very good websites to use for supplemental study: Investopedia, My Accounting Course, and AccountingTools. Investopedia, in particular, has very understandable explanations of accounting concepts. People have also put together flashcards of WGU course study terms on Quizlet — search for WGU and the course code (such as "WGU C213"). Just make sure you study from recent Quizlet decks and not ones that are many years old.
+
+---
+
+MAY 24, 2020 — C214: Financial Management (89% complete)
+
+I just passed C214 - Financial Management, putting me at 89% complete for the WGU MBA IT degree. This course is about the principles and processes of financial decision-making for public corporations. The major concepts covered are efficient market prices, balancing risk and return, the Time Value of Money (TVM), types of financial statements, and how cash is moved around. C214 is the course that was given the nickname "The Beast" for me.
+
+A vital key to passing the OA on your first attempt is to completely understand all of the elements of the balance sheet, the income statement, and the statement of cash flows (from operations, investment, and financing). Be able to write out these statements on a blank sheet of paper. From this you will have a very good understanding of many of the financial formulas and ratios that you need to know for this course. Throw in capital management, capital market theory, long-term investments, and government regulations and you get an idea of the rest. You are given three hours to complete the OA; I did it in 90 minutes and passed on my first attempt.
+
+C214 is the only WGU course I've taken where the majority of recommendations from both students and instructors was to not use the eText course material to study for the OA. Instead, there are numerous quizzes, study guides, and recordings of cohort webinars provided that boil down the finance concepts and formulas found in the eText material. The course overview video (2.5 hours) and three session videos (1-1.5 hours each) are available in the Announcements and Course Tips sections and are an absolute must to learn from. These sessions cover all of the concepts in the PA and OA exams and also provide instructions on how to use the TI calculator.
+
+PRO TIP: The C214 course material is based on using the inexpensive TI BA II Plus calculator. However, you can use another type of financial calculator if you learn how to use it properly. Having no prior experience using a financial calculator, I decided to use the HP 12c Platinum for C214, which is only a little more costly than the TI.
+
+There are also video recordings of cohorts reviewing conceptual financial material and financial formulas. These cohort videos become unavailable as they are periodically refreshed, so it's best to record these webinars for yourself when you attend them.
+
+PRO TIP: Copy these video files to your local computer as soon as they are available in the C214 Announcements and Course Tips sections. You will be listening to the videos multiple times as you take notes on how to understand financial concepts and solve financial calculations.
+
+C214 is a giant elephant to eat. Unless you are already very experienced with corporate finances, you won't be able to eat too quickly or too much in one sitting. You also won't be able to pass the OA exam by cramming at the last minute. Chew on C214 daily at a slow and steady pace. However, if I passed C214 having no prior financial experience then you can too!
+
+Now on to the C218 capstone, my final course in the WGU MBA IT program!

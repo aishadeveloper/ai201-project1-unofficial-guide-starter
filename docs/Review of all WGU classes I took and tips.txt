@@ -1,0 +1,91 @@
+Source: Reddit r/WGU_CompSci
+Author: nightowl1001001 (experienced software engineer, ~8 years experience, frontend/React focus, prior 3-month bootcamp)
+Title: Review of All WGU Classes I Took + Tips (as an Experienced Software Engineer)
+
+---
+
+I have benefitted extensively from Reddit and Discord throughout this process, so I thought I would give back now that I passed the capstone. As the title says, I'm an experienced engineer (~8 YOE), but I have worked mostly on front end web dev, almost exclusively React. I went to a 3 month bootcamp back in the day. I pretty much only wrote JavaScript before pursuing this degree, so a lot of this material was brand new to me. The following list of classes are in the order I passed them.
+
+CLASS REVIEWS:
+
+Version Control – D197: This class is insanely easy if you have worked in the industry even a little bit. It's just basic git commands. Took me 2 hours between activating the class and submitting my PA, and most of that time was just figuring out what the assignment wanted. If git is new to you, learn it well. This is extremely useful and important for any SWE job. Practice what you learned in this class in every coding class going forward, even if commits are not a requirement.
+
+Scripting and Programming – Applications (C++): I thought I could knock it out in 2 days but I think it took me about a week instead. It's one of the better coding classes in my opinion. You have some autonomy in how you write the code. Best tip is to find the book repo collection of videos and really understand what each line of code is doing. I've never done C++ or any serious OOP before, so I enjoyed this class and I think it's overall a useful class to pay attention to.
+
+Business of IT – Applications – D336: This is the first class I absolutely hated from WGU. I worked in tech, have a BS in business, and still don't get the jargons you have to learn here. I thought this would be one of those easy to pass common sense classes, but it's like my brain operates on a different wavelength from the people writing this material. Best piece of study material is the Jason Dion Cram Sheet and beyond that, just do as many practice problems as you can until you feel like 80% ready. This is absolutely not a class you need to pay attention to for work purposes.
+
+Discrete Mathematics II – C960: The first hard class I took, and I loved it. I spent a lot of time before WGU warming up on math. I did precalc and calc on Sophia, and DM1 on Study.com. I was good at recursion and algorithms from my bootcamp days. My best tip for this class is to go through all the unit worksheets. I was very weak on counting and probability so I had ChatGPT quiz me over and over until I felt somewhat solid. Don't skimp on this class. Time management is key on the exam. Skip questions you don't know or know will take a while, come back once you are done with the easier/faster questions.
+
+Java Frameworks – D287: All the Java classes in this program suck. Watch a Spring tutorial, learn Java if you haven't, and just follow a Reddit/Discord guide to pass. I followed nusa's guide on Discord. This project hurt my brain because it made no sense whatsoever, and I spent way too much time overthinking it. Take all the instructions literally. I added some very basic CSS styling and got an excellence award lmao. Focus on understanding what an MVC is and how Springboot works, but these Java projects are very poor examples of what real software looks like.
+
+Linux Foundations: Join the Discord channel for the class. If you have some Linux command line experience, you'll have an easier time later on in OS and Comp Arch.
+
+Back-End Programming – D288: As much as all these Java classes suck, this one is the worst. The course material wasn't helpful, and the CIs were so hit or miss. They want you to do more set up and experience more of the development process, but this was one of those classes where you have to follow instructions carefully in each step. Not a lot of creativity allowed here. Also, you can't properly test your code in each step. Go to the live instructor support sessions, get help ASAP when you are stuck, and move on as quickly as possible. I did most of the coding in my local macOS environment, but also ran it in the dev environment for submission.
+
+Advanced Java – D387: After suffering through the previous 2 Java classes, this one should be a breeze. It took me maybe a day to do this one. Interestingly, this one resembles real work a little more. The Angular part was easy for me, but I have a lot of FE experience. The Docker part might be the trickiest, but I would just play around with the config file and plan to talk with a CI as soon as you get stuck.
+
+Software Engineering – D284: This class doesn't really teach you any sort of engineering. It's mostly about the software development process. Everyone just uses some kind of Agile and no one talks "functional requirements." There's probably more that's useful for PMs than engineers. It's all very academic. Also don't be afraid to repeat yourself and make things up. Have ChatGPT explain any concepts to you that you are unfamiliar with.
+
+Software Design and Quality Assurance – D480: This class was so horrendously hard for me. The evaluators for this class are notoriously picky. I had trouble understanding what the assignment wanted me to write. It's incredibly bizarre to write about architectural and process decisions when dealing with an incredibly trivial bug. I had so many fail points in both tasks that I needed to meet with an instructor to figure out what the disconnect was. The CI told me a student was on his 6th or 7th revision. I ended up passing on attempt 2 for both tasks. The main things I missed: 1) only front end changes should be talked about, 2) the functional requirements are the 2 different cases described, 3) "objective" of (non)functional requirements is basically asking about why we need the requirements. Meeting with the instructors helped. I think learning about the different types of quality metrics and testing methodologies are useful, but overall, this class was just busy work that is poorly designed and pedantically evaluated.
+
+Data Structures and Algorithms II – C950: I love DSA, so while this class was a lot of work, I was a fan. This might be the highest quality class of the whole program. You have total control over your environment, how the files are set up, what algorithm to use, and how you present the UI. For this class, I read through the requirements for both tasks and met with a CI to ask clarifying questions. I did a pretty simple nearest neighbor algorithm. This was the best coding class for sure, and it felt the most like work. Don't sleep on this class. I didn't expect the writeup to take as long as it did, but there is a template in course search you need to use to pass this class. I ended up with a 33 page PDF for task 2 (lots of screenshots and descriptions).
+
+Computer Architecture: Know calculations covered by Lunsby. I went through the zyBook along with Lunsby's videos at 1.75x speed. Then I went through the book from start to finish only to learn the vocab and redo exercises marked. I had ChatGPT open while I did this, asked it to explain things to me ("explain it to me like I'm 5"). There's also a 20 page study guide by Jim Ashe that is really good. The important thing is to really understand how things work together. As I went through the vocab list, I would realize something is related to another thing and ask ChatGPT to confirm. The OA asks you questions in a way that requires you to understand the material, even if it's just at a high level.
+
+Introduction to Artificial Intelligence – C951: This class was a real roller coaster. 3 tasks is daunting, but the first 2 are easy. The last one is really long, but it helps with the capstone. Task 1 and 2, I would suggest to just do the minimum and move on. Don't skimp on task 3, and absolutely checkout the requirements for capstone before starting. Use https://ashejim.github.io/BSCS/intro.html. The process of writing this paper, especially the outside source review section, really helped me learn the ML needed to do the capstone. I almost took this class at Study.com, and I'm glad I ended up doing it at WGU.
+
+Operating Systems for Programmers – C191: This was the final boss for me. I thought maybe I could reuse my Comp Arch strategy, but that wasn't really feasible with how many more topics were covered here. Shiggy's notes (Discord) are probably the best sources for this class. I went through the individual chapters, then did my best to be very solid on the topics covered by the "Know" and "More to know" docs. I had ChatGPT quiz me over and over on any topic I didn't really understand. I did hundreds of multiple choice questions that way. The OA is written in a way that requires you to understand how things work instead of just brute force memorizing vocab, so trying to understand things from different angles helps a lot.
+
+Computer Science Capstone – C964: Did you plan ahead doing Intro to AI? If you did, congrats because this will be a cake walk for you. The proposal is easy, and I got mine back from Ashe in a few hours. The actual coding took me about 2 hours using Google Colab. I already had my strategy lined up between AI task 3 and the proposal (visualizations). The writing was pretty easy and I was able to finish much of it with paragraphs from AI task 3. I made sure to add comments in Colab to make things easier to read and understand. I also did all 3 of my visualizations there. All in all, it took just about a day. I really enjoyed this ML project. It was a subject I previously knew nothing about, and I think this opened another door for me.
+
+---
+
+GENERAL TIPS:
+
+- Pick easy classes to start with. Prove to your mentor that you can finish classes fast, and you will have a really easy time getting new classes unlocked. I had 2 PAs and 1 OA class going at the same time for most of the program.
+
+- Utilize CI appointments and Live Instructor Support. Obviously don't ask them things you can Google, but if you get stuck, do yourself a favor and ask for help. If there's no LIS available, book CI appointments before you need them. Sometimes you have to wait up to a week to talk to them, so book early!
+
+- Grammarly: I write my papers in Google Docs and have the Grammarly plugin installed (free with WGU). I ONLY correct the suggestions in "correctness" and nothing else. Never had a problem with professional communication or AI claims.
+
+- For writing classes, there is always a template of some sort.
+
+- Pre-assessments: My strategy was to take the PA only when I think I might be ready for the OA, because you can only see these questions for the first time once. They covered the same topics as the OAs, but questions may be asked in different ways.
+
+- Join Discord! Got so much good advice there.
+
+---
+
+MORE THOUGHTS:
+
+Proctoring: I bought a cheap but new HP (16GB RAM) last year to use for testing only. I had trouble using it for Guardian, so I wiped an old MacBook Air (8GB RAM) and had no problems since. Best way to test whether your laptop and connection are good enough is to run the speed test on https://speed.cloudflare.com. Make sure "Video chatting" is at least "Good." RAM is not everything.
+
+The 3 WGU OAs I took were high quality in my opinion. The questions were well written and really required understanding of the material.
+
+The 2 certs I got were nice, but I don't think they move the needle when it comes to looking for a SWE job.
+
+Use ChatGPT to help you learn! Don't use it to cheat, you really only end up cheating yourself. It can be such a great tool for learning though. It got me through a lot of very dense topics.
+
+---
+
+WAS IT WORTH IT?
+
+For less than $5k all in, getting this degree was absolutely worth it. I'm counting it as less with the $1000+ student discounts on random things I was able to get as well. Who knows with this job market, but I know I am a better engineer now with all this new knowledge. Most of the classes were relevant enough, and while the course materials may not be the best, most OAs and PAs are set up in a way that allow you to learn well if you want.
+
+I also have a degree from a brick-and-mortar school, and I have to say I really like this learning format. The depth you get is also far superior compared to any bootcamp out there. I'm not the most disciplined — I have a DSA Coursera class from years ago that is perpetually stuck on chapter 1 — but not having to pay another $4k was plenty motivation for me to get this done.
+
+---
+
+COMMENTS:
+
+Nothing_But_Design:
+At Amazon, SDEs own their product and are supposed to connect with the customer. We write various documents including Design Documents (DC) and Business Requirement Documents (BRD). Functional requirements are what we use to work backwards from to code. Usually the non-technical people write "user stories" instead of "functional requirements." One of the Amazon internal design document templates has a "functional requirements" section.
+
+nightowl1001001 (OP):
+Thanks for this input! Admittedly my perspective is narrow since I've mostly worked at startups and we just kind of go. The PMs usually handle all the writing if at all, and mostly we just huddle up and talk things out.
+
+GaladrielStar:
+I just graduated from the BSCS on Monday. I don't have a coding background other than teaching myself some Python during Covid, but I 100% agree with your assessment of the courses, their value, and the sticking points. Coding courses took me far longer due to the learning curve, but I learned so much through this process. DSA2 and capstone projects were both fun for me and extremely rewarding. Looking back, I am deeply thankful for Computer Architecture and Operating Systems courses as well as all the math, despite the difficulty of those exams. I genuinely understand the how and why of what I'm coding so much more now.
+
+mental_thinking (on Business of IT – Applications):
+This was far and away my least favorite class of the BSCS program. ITIL is a pyramid scheme grift and a complete waste of time. Studying for this exam actually made me angry with how useless ITIL is. It's just a way to trick companies into thinking this buzzword soup is actually something of value. The Peoplecert site is also trash — when I tried to check in for the exam, the page kept getting an error in Chrome, Safari, and Firefox. I had to use chat and they gave me the direct link to the exam.
