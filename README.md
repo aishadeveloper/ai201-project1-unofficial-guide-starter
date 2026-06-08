@@ -9,12 +9,7 @@
 
 ## Domain
 
-<!-- What topic or category of knowledge does your system cover?
-     Why is this knowledge valuable, and why is it hard to find through official channels?
-     Example: "Student reviews of CS professors at [university] — useful because official
-     course descriptions don't reflect teaching style, exam difficulty, or workload." -->
-
----
+A student-generated reviews, study strategies, and course-completion assistant for Western Governors University courses because it helps students discover practical insights, recommended resources, difficulty assessments and success strategies that are often scattered across various discussions, blogs, forums, and alumni experiences rather than official university materials.
 
 ## Document Sources
 
@@ -47,11 +42,12 @@
      - What your final chunk count was across all documents -->
 
 **Chunk size:**
-
+700
 **Overlap:**
+100
 
 **Why these choices fit your documents:**
-
+The documents are long and coversational with poor stucture and ideas often span multiple sentences.
 **Final chunk count:**
 
 ---
