@@ -24,7 +24,7 @@ A student-generated reviews, study strategies, and course-completion assistant f
 | 3 | YouTube | txt | docs\How to Succeed at WGU YT-TKU.txt |
 | 4 | Stunlock | txt | docs\My Thoughts on WGU and Online Schools -stunlock.txt |
 | 5 | Reddit | txt | docs\need all the advice and resources.txt |
-| 6 | | Reddit | docs\Review of all WGU classes I took and tips.txt |
+| 6 | Reddit | txt | docs\Review of all WGU classes I took and tips.txt |
 | 7 | Infosecinstitute | txt | docs\Starting WGU MBA IT Management - infosecinstitute.txt |
 | 8 | Reddit | txt | docs\structure of a typical course - reddit.txt|
 | 9 | YouTube | txt | docs\Survival Tips to complete Your WGU Degree Any field -YT-MWL.txt |
@@ -129,13 +129,20 @@ Layer 2 - Programmatic attributions via the sources panel. The programmatic list
      results from an unrelated review" is an explanation. -->
 
 **Question that failed:**
+
 What do you think about WGU?
 I don't feel that any questions failed as I tried to trick the AI, but some of the answers did not specificlly point to a particular source - rather combined the answers from multiple sources.  
+
 **What the system returned:**
+
 WGU is considered a decent institution that provides enough fundamentals for software development without being too easy. It has a broad domain and delves deep into some topics, making it valuable for both employees and employers. However, it may not be suitable for everyone, especially those who need their hand held every step of the way. Additionally, there is a small stigma associated with WGU, possibly due to its absence from college ranking systems like US News, but this stigma is believed to fade over time as more alumni enter the workforce.
+
 **Root cause (tied to a specific pipeline stage):**
+
 This issue was caused during generate.py.
+
 **What you would change to fix it:**
+
 I would further insist that for each point listed to note the source at the end of the sentence - unless all sentences/points are from the same source. Also, cite the source document within the text instead of listing all the sources at the end, so it is clearly evident which document each answer was retrieved from.
 ---
 
