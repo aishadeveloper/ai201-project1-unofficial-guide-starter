@@ -15,19 +15,20 @@ Algorithm:
 Output: chunks.json — a list of chunk dicts ready for embedding / ingestion.
 """
 
+import argparse
 import json
 import re
 from pathlib import Path
 
 # ── Configuration ──────────────────────────────────────────────────────────────
 
-DOCS_DIR    = Path(r"C:\Users\asbod\Claude\Projects\The Unofficial Guide RAG system\docs")
-OUTPUT      = Path(r"C:\Users\asbod\Claude\Projects\The Unofficial Guide RAG system\chunks.json")
+DOCS_DIR    = Path(r"C:\projects\ai201-project1-unofficial-guide-starter\docs")
+OUTPUT      = Path(r"C:\projects\ai201-project1-unofficial-guide-starter\chunks.json")
 
-TARGET_MIN  = 700    # minimum chars per chunk
-TARGET_MAX  = 900    # maximum chars per chunk before forcing a split
-OVERLAP_MIN = 100    # minimum overlap chars carried forward
-OVERLAP_MAX = 150    # maximum overlap chars carried forward
+TARGET_MIN  = 350    # minimum chars per chunk
+TARGET_MAX  = 450    # maximum chars per chunk before forcing a split
+OVERLAP_MIN = 50     # minimum overlap chars carried forward
+OVERLAP_MAX = 75     # maximum overlap chars carried forward
 
 
 # ── Metadata parsing ──────────────────────────────────────────────────────────
@@ -66,11 +67,11 @@ def split_sentences(text: str) -> list[str]:
     return [p.strip() for p in parts if p.strip()]
 
 
-def atomic_units(body: str) -> list[str]:
+def atomic_units(body: str, target_max: int = TARGET_MAX) -> list[str]:
     """
     Return a flat list of text units for chunking:
-      - Each paragraph becomes one unit if len <= TARGET_MAX.
-      - Paragraphs longer than TARGET_MAX are split into sentences first.
+      - Each paragraph becomes one unit if len <= target_max.
+      - Paragraphs longer than target_max are split into sentences first.
     This preserves as much semantic completeness as possible while keeping
     individual units within the size ceiling.
     """
@@ -78,7 +79,7 @@ def atomic_units(body: str) -> list[str]:
     units: list[str] = []
 
     for para in paragraphs:
-        if len(para) <= TARGET_MAX:
+        if len(para) <= target_max:
             units.append(para)
         else:
             # Paragraph too long — break into sentences, then re-group
@@ -86,7 +87,7 @@ def atomic_units(body: str) -> list[str]:
             group = ""
             for sent in sentences:
                 candidate = (group + " " + sent).strip() if group else sent
-                if len(candidate) <= TARGET_MAX:
+                if len(candidate) <= target_max:
                     group = candidate
                 else:
                     if group:
@@ -101,19 +102,19 @@ def atomic_units(body: str) -> list[str]:
 
 # ── Overlap extraction ────────────────────────────────────────────────────────
 
-def extract_overlap(text: str) -> str:
+def extract_overlap(text: str, overlap_min: int = OVERLAP_MIN, overlap_max: int = OVERLAP_MAX) -> str:
     """
-    Return the last OVERLAP_MIN–OVERLAP_MAX chars of *text*, snapping to the
+    Return the last overlap_min–overlap_max chars of *text*, snapping to the
     nearest word boundary so the overlap always starts mid-word cleanly.
     """
-    if len(text) <= OVERLAP_MIN:
+    if len(text) <= overlap_min:
         return text
 
-    window_start = max(0, len(text) - OVERLAP_MAX)
-    window_end   = len(text) - OVERLAP_MIN
+    window_start = max(0, len(text) - overlap_max)
+    window_end   = len(text) - overlap_min
 
     if window_end <= window_start:
-        return text[-OVERLAP_MIN:]
+        return text[-overlap_min:]
 
     window = text[window_start:window_end]
     space  = window.find(" ")   # first space → longest clean overlap
@@ -121,17 +122,23 @@ def extract_overlap(text: str) -> str:
     if space != -1:
         return text[window_start + space + 1:]
 
-    return text[-OVERLAP_MIN:]
+    return text[-overlap_min:]
 
 
 # ── Core chunker ─────────────────────────────────────────────────────────────
 
-def chunk_body(body: str) -> list[str]:
+def chunk_body(
+    body: str,
+    target_min:  int = TARGET_MIN,
+    target_max:  int = TARGET_MAX,
+    overlap_min: int = OVERLAP_MIN,
+    overlap_max: int = OVERLAP_MAX,
+) -> list[str]:
     """
     Produce overlapping chunks from *body* text, respecting paragraph / sentence
-    boundaries and targeting TARGET_MIN–TARGET_MAX characters per chunk.
+    boundaries and targeting target_min–target_max characters per chunk.
     """
-    units = atomic_units(body)
+    units = atomic_units(body, target_max=target_max)
     chunks: list[str] = []
     overlap_text: str = ""
     current_units: list[str] = []
@@ -148,22 +155,22 @@ def chunk_body(body: str) -> list[str]:
         sep       = "\n\n" if (current_units or overlap_text) else ""
         added_len = assembled_len() + len(sep) + len(unit)
 
-        if added_len > TARGET_MAX and current_units:
+        if added_len > target_max and current_units:
             # Adding this unit would breach the ceiling.
-            # Always finalise what we have now (even if below TARGET_MIN —
+            # Always finalise what we have now (even if below target_min —
             # a slightly short chunk is better than a massively oversized one).
             chunk = assembled()
             chunks.append(chunk)
-            overlap_text  = extract_overlap(chunk)
+            overlap_text  = extract_overlap(chunk, overlap_min, overlap_max)
             current_units = [unit]
         else:
             # Unit fits — add it.
             current_units.append(unit)
-            if assembled_len() >= TARGET_MIN:
+            if assembled_len() >= target_min:
                 # ✓ Reached the target window — finalise.
                 chunk = assembled()
                 chunks.append(chunk)
-                overlap_text  = extract_overlap(chunk)
+                overlap_text  = extract_overlap(chunk, overlap_min, overlap_max)
                 current_units = []
 
     # Flush remaining units as the last chunk
@@ -175,7 +182,13 @@ def chunk_body(body: str) -> list[str]:
 
 # ── Document processor ────────────────────────────────────────────────────────
 
-def process_file(filepath: Path) -> list[dict]:
+def process_file(
+    filepath: Path,
+    target_min:  int = TARGET_MIN,
+    target_max:  int = TARGET_MAX,
+    overlap_min: int = OVERLAP_MIN,
+    overlap_max: int = OVERLAP_MAX,
+) -> list[dict]:
     """Load one .txt file, chunk it, and return a list of chunk dicts."""
     raw = filepath.read_text(encoding="utf-8", errors="replace")
     metadata, body = parse_header(raw)
@@ -184,7 +197,7 @@ def process_file(filepath: Path) -> list[dict]:
         print(f"  [SKIP] {filepath.name} — no body text.")
         return []
 
-    raw_chunks = chunk_body(body)
+    raw_chunks = chunk_body(body, target_min, target_max, overlap_min, overlap_max)
     return [
         {
             "chunk_id"    : f"{filepath.stem}_chunk_{idx:03d}",
@@ -201,24 +214,48 @@ def process_file(filepath: Path) -> list[dict]:
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def main() -> None:
-    if not DOCS_DIR.exists():
-        raise FileNotFoundError(f"Docs directory not found: {DOCS_DIR}")
+    parser = argparse.ArgumentParser(
+        description="Chunk WGU guide documents into overlapping text segments."
+    )
+    parser.add_argument("--target-min",  type=int, default=TARGET_MIN,
+                        help=f"Minimum chars per chunk (default: {TARGET_MIN})")
+    parser.add_argument("--target-max",  type=int, default=TARGET_MAX,
+                        help=f"Maximum chars per chunk (default: {TARGET_MAX})")
+    parser.add_argument("--overlap-min", type=int, default=OVERLAP_MIN,
+                        help=f"Minimum overlap chars (default: {OVERLAP_MIN})")
+    parser.add_argument("--overlap-max", type=int, default=OVERLAP_MAX,
+                        help=f"Maximum overlap chars (default: {OVERLAP_MAX})")
+    parser.add_argument("--docs-dir",    type=Path, default=DOCS_DIR,
+                        help="Directory containing source .txt files")
+    parser.add_argument("--output",      type=Path, default=OUTPUT,
+                        help="Output path for chunks.json")
+    args = parser.parse_args()
 
-    txt_files = sorted(DOCS_DIR.glob("*.txt"))
+    # Override module-level constants with any CLI values so summary stats match
+    target_min  = args.target_min
+    target_max  = args.target_max
+    overlap_min = args.overlap_min
+    overlap_max = args.overlap_max
+
+    if not args.docs_dir.exists():
+        raise FileNotFoundError(f"Docs directory not found: {args.docs_dir}")
+
+    txt_files = sorted(args.docs_dir.glob("*.txt"))
     if not txt_files:
-        print(f"No .txt files found in {DOCS_DIR}")
+        print(f"No .txt files found in {args.docs_dir}")
         return
 
     all_chunks: list[dict] = []
 
-    print(f"Processing {len(txt_files)} documents from {DOCS_DIR}\n")
+    print(f"Processing {len(txt_files)} documents from {args.docs_dir}")
+    print(f"Chunk size: {target_min}–{target_max} chars  |  Overlap: {overlap_min}–{overlap_max} chars\n")
     for filepath in txt_files:
-        chunks = process_file(filepath)
+        chunks = process_file(filepath, target_min, target_max, overlap_min, overlap_max)
         all_chunks.extend(chunks)
 
         sizes = [c["char_count"] for c in chunks]
         avg   = int(sum(sizes) / len(sizes)) if sizes else 0
-        in_r  = sum(1 for s in sizes if TARGET_MIN <= s <= TARGET_MAX)
+        in_r  = sum(1 for s in sizes if target_min <= s <= target_max)
         print(
             f"  {filepath.name:<65}"
             f"  {len(chunks):>3} chunks  "
@@ -227,14 +264,14 @@ def main() -> None:
             f"  {in_r}/{len(chunks)} in range"
         )
 
-    OUTPUT.write_text(
+    args.output.write_text(
         json.dumps(all_chunks, indent=2, ensure_ascii=False),
         encoding="utf-8",
     )
 
     # ── Summary ──
     all_sizes = [c["char_count"] for c in all_chunks]
-    in_range  = sum(1 for s in all_sizes if TARGET_MIN <= s <= TARGET_MAX)
+    in_range  = sum(1 for s in all_sizes if target_min <= s <= target_max)
     pct       = 100 * in_range / len(all_sizes) if all_sizes else 0
 
     print(f"\n{'─'*72}")
@@ -242,7 +279,7 @@ def main() -> None:
     print(f"In target range   : {in_range} / {len(all_chunks)}  ({pct:.1f}%)")
     print(f"Avg chunk size    : {int(sum(all_sizes)/len(all_sizes)) if all_sizes else 0} chars")
     print(f"Min / Max         : {min(all_sizes) if all_sizes else 0} / {max(all_sizes) if all_sizes else 0} chars")
-    print(f"\nOutput saved to   : {OUTPUT}")
+    print(f"\nOutput saved to   : {args.output}")
 
 
 if __name__ == "__main__":
