@@ -89,7 +89,7 @@ against my evaluation dataset before making a final decision.
 | 2 | What are specific study tips for OA and PA assessments? | OAs are commonly approached through practice tests, flashcards, and course materials. PAs are typically completed by following the rubric closely and addressing each requirement directly. |
 | 3 | What are three strategies to complete your WGU courses faster? | Students recommend accelerating by: 1. Studying before the term begins, Completing assessments as soon as ready. 3. Leveraging outside resources such as Quizlet and YouTube |
 | 4 | How do WGU courses compare to traditional college courses | Students describe WGU as self-paced, compentency-based, and less dependent on scheduled lectures than traditional universities. |
-| 5 | What resourses do students recommend outside of official WGU materials? | Students recommend using outside resources like Reddit, YouTube, and Quizlet. |
+| 5 | What resources do students recommend outside of official WGU materials? | Students recommend using outside resources like Reddit, YouTube, and Quizlet. |
 
 ---
 
